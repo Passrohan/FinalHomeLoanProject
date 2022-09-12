@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<nav class="navbar bakground">
+    <ul class="navlist">
+        <div class="logo"><img src="assets\logo.jpg" alt="logo"></div>
+        <div>
+        <h3 class="groupname">We are Fighters!!</h3>
+        <h6>Dream Home, choices yours..</h6>
+    </div>
+    <li><a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}"><i class="fa-solid fa-house"></i>Home</a></li>
+    <li><a routerLink="about-us" routerLinkActive="active-link"><i class="fa-solid fa-a">&nbsp;</i>about-us</a></li>
+    <li><a routerLink="contact-us" routerLinkActive="active-link"><i class="fa-solid fa-phone"></i>Contact</a></li>
+    <li><a routerLink="company" routerLinkActive="active-link"><i class="fa-solid fa-building"></i>Products</a></li>
+    <li><a routerLink="employee" routerLinkActive="active-link"><i class="fa-solid fa-users"></i>Login</a></li>
+    <!-- <li><a routerLink="/login"><i class="fa-solid fa-right-to-bracket"></i>Logout</a></li> -->
+    </ul>
+    <div class="rightnav">
+    <input type="text" id="search" class="search" placeholder="Search here">&nbsp;&nbsp;&nbsp;<button class="btn btn-sm">Search</button>
+    </div>
+    </nav>
+
+<router-outlet></router-outlet>
